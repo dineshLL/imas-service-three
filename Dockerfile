@@ -11,7 +11,7 @@ RUN npm install
 
 # set the service tah here
 # Environment Variables
-ENV IMAS_TAG service-three
+ENV IMAS_TAG service_three
 
 # Bundle app source
 COPY . /usr/src/app
